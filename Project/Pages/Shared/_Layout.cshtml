@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Shift Management Suite</title>
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/Project.styles.css" asp-append-version="true" />
+</head>
+<body>
+<div class="header">
+    <h1><a href='https://code.daypilot.org/60141/asp-net-core-shift-planning'>ASP.NET Core Shift Planning</a></h1>
+    <div><a href="https://javascript.daypilot.org/"></a> -Scheduling using Angular and ASP.NET Core</div>
+</div>
+
+<div class="main">
+    @RenderBody()
+</div>
+
+<script src="~/js/site.js" asp-append-version="true"></script>
+
+@await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
