@@ -71,32 +71,32 @@ namespace Project.Migrations
                         new
                         {
                             Id = 1,
-                            Name = "Person 1"
+                            Name = "John Doe"
                         },
                         new
                         {
                             Id = 2,
-                            Name = "Person 2"
+                            Name = "Jane Smith"
                         },
                         new
                         {
                             Id = 3,
-                            Name = "Person 3"
+                            Name = "Michael Lee"
                         },
                         new
                         {
                             Id = 4,
-                            Name = "Person 4"
+                            Name = "Person A"
                         },
                         new
                         {
                             Id = 5,
-                            Name = "Person 5"
+                            Name = "Person B"
                         },
                         new
                         {
                             Id = 6,
-                            Name = "Person 6"
+                            Name = "Person C"
                         });
                 });
 
@@ -120,17 +120,17 @@ namespace Project.Migrations
                         new
                         {
                             Id = 1,
-                            Name = "Location 1"
+                            Name = "Site A"
                         },
                         new
                         {
                             Id = 2,
-                            Name = "Location 2"
+                            Name = "Site B"
                         },
                         new
                         {
                             Id = 3,
-                            Name = "Location 3"
+                            Name = "Site C"
                         });
                 });
 
