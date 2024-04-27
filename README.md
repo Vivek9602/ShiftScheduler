@@ -6,3 +6,7 @@ PM > Update-Database
 
 Database Connection: 
 Change the 'ConnectionStrings' in appsettings.json
+
+Execution:
+PM > dotnet build
+PM > dotnet run
